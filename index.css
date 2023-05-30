@@ -1971,10 +1971,14 @@ body
 {
    border: 0px solid #000000;
    border-radius: 0px;
+   box-sizing: border-box;
    padding: 0;
-   display: inline-block;
-   width: 454px;
-   height: 227px;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 320px;
+   margin-left: auto;
+   margin-right: auto;
    vertical-align: top;
 }
 #wb_Icon1
@@ -2013,8 +2017,8 @@ body
 #wb_Image1
 {
    display: inline-block;
-   width: 454px;
-   height: 227px;
+   width: 100%;
+   height: auto;
    z-index: 19;
 }
 #wb_Image3
@@ -2097,9 +2101,9 @@ body
    position: fixed;
    text-align: left;
    visibility: hidden;
-   left: -8px;
+   left: 3px;
    top: auto;
-   bottom: 0px;
+   bottom: 15px;
    width: 95px;
    height: 93px;
    z-index: 45;
@@ -3184,7 +3188,7 @@ body
 #wb_Text3
 {
    left: 72px;
-   top: 34px;
+   top: 33px;
    width: 65px;
    height: 25px;
    visibility: visible;
@@ -3229,16 +3233,10 @@ body
 }
 #wb_Image1
 {
-   width: 382px;
-   height: 191px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: block;
    margin: 0;
    padding: 0;
-}
-#Image1
-{
-   width: 382px;
-   height: 191px;
 }
 }
